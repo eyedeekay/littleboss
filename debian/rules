@@ -2,3 +2,5 @@
 
 %:
 	dh $@ --buildsystem=golang --with=golang
+
+dh_auto_test:
