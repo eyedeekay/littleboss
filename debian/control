@@ -1,0 +1,22 @@
+Source: golang-crawshaw-littleboss
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: idk <hankhill19580@gmail.com>
+Build-Depends: debhelper (>= 11),
+               dh-golang,
+               golang-any,
+               golang-github-spf13-pflag-dev
+Standards-Version: 4.2.1
+Homepage: https://github.com/crawshaw/littleboss
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-crawshaw-littleboss
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-crawshaw-littleboss.git
+XS-Go-Import-Path: crawshaw.io/littleboss
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-crawshaw-littleboss-dev
+Architecture: all
+Depends: ${misc:Depends},
+         golang-github-spf13-pflag-dev
+Description: littleboss: supervisor construction kit
+ 
